@@ -1,0 +1,17 @@
+1. HDFC Late Payment Charges
+Outstanding Balance Less than ₹100: Nil penalty.
+Outstanding Balance ₹100 to ₹500: ₹100 penalty.
+Outstanding Balance ₹501 to ₹5,000: ₹500 penalty.
+Outstanding Balance ₹5,001 to ₹20,000: ₹750 penalty.
+Outstanding Balance ₹20,001 to ₹50,000: ₹1,000 penalty.
+Outstanding Balance greater than ₹50,000: ₹1,300 penalty.
+GST at 18% applies on top of each late payment slab amount.
+
+2. Commercial and B2B Transaction Fees
+1. Commercial Rent: A processing fee of 1% applies to the transaction amount on all rental transactions processed via third-party merchants.
+2. EMI Processing: For balance transfers on EMI or Smart EMI facilities, a processing fee of ₹999 + GST, or 1% of the loan amount (whichever is higher), is applicable.
+3. Overlimit Fee: An overlimit fee of 2.5% of the overlimit amount is charged, subject to a minimum of ₹500.
+
+3. Finance Charges and Liquidity
+1. Interest-Free Float: Cardholders receive an interest-free grace period of up to 50 days, provided all previous dues are paid in full and there is no unpaid balance carried over.
+2. Revolving Credit Rate: For standard credit cards, the finance charge is up to 3.75% per month (45% per annum). For premium cards (such as Infinia or Diners Black), the rate is 1.99% per month (23.88% per annum).

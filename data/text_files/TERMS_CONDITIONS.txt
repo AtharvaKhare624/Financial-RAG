@@ -1,0 +1,38 @@
+B2B Payment Aggregator: Terms of Service and Compliance Rules
+
+1. Definitions
+* Acquiring Bank: Any bank or financial institution that processes debit card, credit card, or other payment instrument transactions on behalf of the User.
+* API: Application Programming Interface used for secure communication between software platforms.
+* Convenience Fee: The fee payable by the User to the payment aggregator / platform for using the Services.
+* Payee: The final beneficiary or merchant to whom a payment is made by the User.
+* Self-Financing Transaction: A prohibited transaction where a User funds their own bank account, their spouse's account, an affiliate's account, or initiates a transfer without a genuine underlying transaction with a third-party Payee.
+* Settlement Account: The nodal or escrow bank account maintained by the payment aggregator / platform for processing and routing funds.
+* Transaction Amount: The total principal amount payable by a User to a Payee, excluding convenience fees and applicable taxes.
+
+2. Eligibility and Registration
+* Users must be of legal age (18 years or older) and legally competent to contract. If registering on behalf of a business entity, the representative must hold the required authorization.
+* To comply with Know Your Customer (KYC) requirements, Users must provide valid identification, address proof, Permanent Account Number (PAN), and Goods and Services Tax (GST) details if applicable.
+
+3. Use of Services and User Obligations
+* The Services may be used exclusively for making settlements for valid, legal, and bona fide transactions.
+* Self-Financing Prohibition: Users are strictly prohibited from executing Self-Financing Transactions. Payments for rent must correspond to a duly executed lease/license agreement, and vendor payments must correspond to actual goods or services received.
+* CPIN Verification for Tax: When processing GST payments, the User bears full responsibility for generating the correct Challan Portal Identification Number (CPIN) and allocating accurate amounts to the respective tax heads.
+* The payment aggregator / platform acts as an intermediary payment agent. Once a transaction is authenticated using two-factor authentication (e.g., OTP), it is considered conclusive evidence of a valid instruction.
+
+4. Settlement and Payout Schedule
+* The payment aggregator / platform deducts applicable Convenience Fees and GST before routing the balance to the Payee's designated bank account.
+* Payouts are executed according to industry-standard timelines (e.g., Next-Day T+1, Same-Day T+0, Instant), subject to the processing windows of Acquiring Banks and payment networks.
+* The payment aggregator / platform reserves the right to defer or restrict payouts in the event of suspected fraud, pending dispute resolution, or by mandate of a governmental or regulatory authority.
+
+5. Chargebacks, Cancellations, and Refunds
+* Irreversibility: Once a Transaction has been successfully initiated and processed into the Payee's bank account, it cannot be canceled or reversed by the User.
+* Dispute Window: Users must raise any queries or disputes regarding a transaction within 3 (three) hours of initiation.
+* Chargebacks: A Chargeback (a demand for a refund initiated by a bank or regulatory authority) will only be processed if the Payee agrees to refund the designated amount. The payment aggregator / platform is not liable for Chargebacks resulting from disputes over the quality or delivery of goods/services between the User and the Payee.
+* Technical Failures: In the event of a system failure where funds are debited but not processed to the Payee, the User will receive a full refund (including convenience fees) within 7 to 10 working days.
+
+6. Security and Restrictions
+* Users are prohibited from reverse-engineering the API, utilizing automated scraping/bots, or attempting unauthorized access to the network infrastructure.
+* The payment aggregator / platform does not store sensitive card credentials in violation of applicable regulatory guidelines. Users must maintain the security of their login credentials and OTPs.
+
+7. Governing Law
+* These Terms of Service and any disputes arising from them shall be governed by applicable national laws and subject to the exclusive jurisdiction of the competent courts.

@@ -1,0 +1,115 @@
+Definitions:
+
+(1) ‘Payment System’ has the same meaning as defined in the PSS Act.
+
+(2) ‘Payment System Operator’ (PSO) has the same meaning as defined for System Participant in clause (p) of Section 2(1) of the PSS Act.
+
+(3) ‘Company’ means a company registered under Section 3 of the Companies Act, 1956 or the corresponding provision under the Companies Act, 2013.
+
+(4) ‘Companies in the group’ means an arrangement involving two or more entities related to each other through any of the following relationships: Subsidiary – parent (defined in terms of AS 21), Joint venture (defined in terms of AS 27), Associate (defined in terms of AS 23), Promoter–promotee [as provided in the SEBI (Acquisition of Shares and Takeover) Regulations, 1997] for listed companies, a related party (defined in terms of AS 18), common brand name, and investment in equity shares of 20 percent and above.
+
+(5) ‘Promoter’ means, the person who together with his relatives [as defined in Section 2(77) of the Companies Act, 2013 and Rules made there under], by virtue of his ownership of voting equity shares, will be/ is in effective control of Payment System Operator, and includes, wherever applicable, all entities which form part of the Promoter Group.
+
+Explanation: The term ‘effective control’ means any arrangement whether in the form of shareholding or agreement or otherwise, which enables exercise of control.
+
+(6) ‘Promoter Group’ includes:
+
+A. the promoter;
+
+B. relatives of the promoter [as defined in Section 2 (77) of the Companies Act, 2013 and Rules made there under]; and
+
+C. in case promoter is a body corporate:
+
+(i) a subsidiary or holding company of such body corporate;
+
+(ii) body corporate in which the promoter holds ten per cent or more of the equity share capital or which holds ten per cent or more of the equity share capital of the promoter;
+
+(iii) any body corporate in which a group of individuals or companies or combinations thereof which hold twenty percent or more of the equity share capital in that body corporate also holds twenty per cent or more of the equity share capital of the promoter;
+
+(iv) Joint venture/Associate (as defined in terms of Ind AS 28) with the promoter;
+
+(v) Related party (as defined in terms of Ind AS24) of the promoter; and
+
+D. In case the promoter is an individual:
+
+(i) any body corporate in which ten per cent or more of the equity share capital is held by the promoter or a relative of the promoter or a firm or Hindu Undivided Family in which the promoter or anyone or more of his immediate relative is a member;
+
+(ii) any body corporate in which a body corporate as provided in (D) (i) above holds ten per cent or more, of the equity share capital;
+
+(iii) any Hindu Undivided Family or firm in which the aggregate shareholding of the promoter and his immediate relatives is equal to or more than ten per cent of the total; and
+
+E. all persons who are declared as promoters in the Articles of Association of the group companies.
+
+F. all persons whose shareholding is aggregated for the purpose of disclosing in the prospectus (As per SEBI (Issue of Capital & Disclosure Requirements) Regulations, 2018) under the heading "shareholding of the promoter group";
+
+G. Entities sharing a common brand name with entities discussed in (C) (i), (C) (ii), (C) (iii), (C) (iv), (C) (v), where the promoter is a body corporate and (D) (i), (D) (ii), (D) (iii) where the promoter is an individual
+
+(7)Factoring – refers to factoring business as defined under The Factoring Regulation Act, 2011 (FRA) (as amended from time to time).
+
+(8) Factoring Unit – refers to trade receivable in the form of invoice / bill uploaded either by the seller (in the case of factoring) or by buyer (in case of reverse factoring), as the case may be.
+
+(9) Financier – all entities / institutions allowed to undertake factoring business as per FRA and the rules / regulations made thereunder.
+
+(10)Seller - Micro, Small and Medium Enterprise (MSME) as defined under The Micro, Small and Medium Enterprises Development (MSMED) Act, 2006 and as amended from time to time.
+
+Eligibility Criteria and Requirements
+
+4.1 An entity seeking authorisation to operate a payment system shall submit an application in the prescribed form through RBI’s portal.
+
+4.2 The capital requirement shall be in accordance with the Guidelines/ Directions issued for the specific payment system. The details of the same are available on RBI website.
+
+4.3 The ‘Net-worth’ will consist of ‘paid up equity capital, preference shares compulsorily convertible to equity, free reserves, balance in share premium account and capital reserves representing surplus arising out of sale proceeds of assets but not reserves created by revaluation of assets’, adjusted for ‘accumulated loss balance, book value of intangible assets, Deferred Revenue Expenditure, and Deferred Tax Assets, if any’.
+
+4.4 An entity while submitting the application for authorisation, shall also submit a certificate in the enclosed format (Annexure) from its Statutory Auditor, evidencing compliance with the applicable net-worth requirement. A newly incorporated entity, not having an audited balance sheet shall submit the certificate, along with a provisional balance sheet of a recent date.
+
+4.5 The Entity / Promoters / Promoter Groups, shall conform to the Reserve Bank’s ‘fit and proper’ criteria, including but not limited to:
+
+(i) The entity shall have a past record of sound credentials and integrity.
+
+(ii) Director of a Promoter Company / Group Company shall have a record of financial integrity; good reputation and character; honesty; etc.
+
+(iii) Such person shall not have incurred any of the following disqualifications –
+
+a) Convicted by a court for any offence involving moral turpitude or any economic offence or any offence under the laws administered by the RBI.
+
+b) Declared insolvent and not discharged.
+
+c) An order, restraining, prohibiting or debarring the person from accessing / dealing in any financial system, passed by any regulatory authority, and the period specified in the order has not elapsed.
+
+d) Found to be of unsound mind by a court of competent jurisdiction and the finding is in force, and
+
+e) Is financially not sound.
+
+RBI’s decision on whether a person is a fit and proper person shall be final.
+
+4.6 The overall financial strength of the promoters/ entity, sound technological basis to support its operations, management, governance etc. shall be other important criteria.
+
+4.7 Application of an entity not meeting the basic eligibility criteria, such as not meeting the minimum capital requirement, or which is incomplete / not in the prescribed form, will be returned. The application which is not in compliance with regulatory requirements as per the provisions of extant DPSS directions, may also be returned.
+
+4.8 The ‘fit and proper’ criteria as detailed at para 4.5 are in addition to criteria stipulated if any, in system specific directions issued by RBI.
+
+4.9 Escrow Rules - Payment Aggregators must maintain a designated Escrow or Nodal account with a scheduled commercial bank to pool funds collected from customers. These funds must be strictly segregated from the platform's own operational funds and used solely for settling payments to the designated Payees.
+
+Transaction limits and velocity check
+
+(a) All recurring transactions may be authorised without AFA up to ₹15,000/- per transaction. Transactions above this amount shall be subject to AFA.
+
+(b) Payment of insurance premiums, subscription to mutual funds, and credit card bill payments may be made without AFA up to ₹1,00,000/- per transaction.
+
+Registration and revocation of E-Mandate
+
+(a) A customer desirous of opting for e-mandate facility shall undertake a one-time registration process. The mandate shall be registered only after successful validation of additional factor of authentication (AFA), in addition to the normal process required by the issuer.
+
+(b) Every e-mandate registered by the issuer shall specify the validity period of the e-mandate. The issuer shall provide the customer with a facility to modify the validity period or withdraw the e-mandate at any point of time. Information about this facility shall be clearly communicated to the customer at the time of registration.
+
+(c) The e-mandate may be for either a pre-specified fixed amount or for a variable amount subject to the overall cap fixed by the RBI. In the case of variable e-mandates, the issuer shall provide the customer with a facility to specify the maximum value of any recurring transaction.
+
+(d) The customer shall be given a facility to choose or change a mode among available options (SMS, email, etc.) for receiving the pre-transaction notification from the issuer.
+
+(e) Any modification in, or withdrawal of, an existing e-mandate shall require AFA validation by the issuer.
+
+Clearing & Settlement
+
+1. The platform shall facilitate efficient and seamless settlement of transactions between financier and seller for financing of trade receivables and between buyer and financier on the due date, using any authorised payment system.
+
+2. The settlement mechanism can be leveraged to facilitate all types of transactions (financed / discounted or unfinanced), and functionalities (insurance premium collection, claim settlement, fees / commissions etc.) enabled on TReDS.

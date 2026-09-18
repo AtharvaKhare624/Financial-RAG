@@ -1,0 +1,26 @@
+Credit Card Bill Payments & Timely Management
+
+Why is timely payment of a credit card bill necessary?
+Timely payment of credit card bills is crucial for maintaining financial health and avoiding unnecessary fees and penalties. Paying your credit card bill on time each month demonstrates responsible financial behavior, which positively impacts credit scores. Late payments result in hefty late fees and interest charges, leading to financial strain. Consistently missing payments damages creditworthiness, making it harder to access credit, loans, or mortgages in the future.
+
+Impact of Late Payments
+Missing even a single payment can harm a borrower's credit score. Unsettled dues are reported to credit bureaus (such as CIBIL, Experian, or Equifax), leading to a substantial score decrease that impacts future borrowing eligibility.
+
+How B2B Payment Platforms Process Credit Card Payments:
+1. Add credit card credentials securely through tokenized payment rails.
+2. Enter beneficiary / payee bank account (IFSC & Account Number) or UPI ID.
+3. Select payment category (e.g., Vendor, Commercial Rent, Utilities, GST) and desired settlement timeline.
+4. Authorize the transaction via 2-Factor Authentication (2FA / OTP).
+
+Eligibility Requirements:
+Standard eligibility for business-to-business credit card processing requires business KYC verification, an active credit card, and valid supporting invoices or tax challans corresponding to the transaction.
+
+Self-Transfer Restrictions:
+B2B payment platforms strictly prohibit the transfer of funds from a credit card to a user's own bank account or personal accounts. Transactions must represent bona fide payments to third-party entities.
+
+Standard Settlement Timelines:
+1. Standard Settlement (T+1): Settles on the next banking working day.
+2. Same-Day Settlement (T+0): Settles on the same calendar day during business hours.
+3. Priority Settlement: Settles within 1 to 2 hours of payment authorization.
+4. Instant Settlement: Settles within minutes via IMPS / UPI payout rails.
+5. Extended Settlement (T+15): Batched processing used for specific working capital cycles.
