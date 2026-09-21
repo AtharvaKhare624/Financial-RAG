@@ -1,12 +1,11 @@
 from src.document_loader import document_loader
-from src.embedding import Embeddings
+from src.vectorstore import Faissvectorstore
 
 
 
 if __name__=="__main__":
-    docs = document_loader("data")
-    E1 = Embeddings()
-    chunks = E1.chunk_document(docs)
-    chunk_vectors = E1.embedding_chunks(chunks)
-    print(chunk_vectors)
-    
+    #docs = document_loader("data")
+    store = Faissvectorstore("faiss_store")
+    #store.build_document(docs)
+    store.load()
+    print(store.query("What are the RBI compliance requirements and mandate rules when using corporate credit cards for recurring vendor payments or SaaS billing?",top_k=3))
