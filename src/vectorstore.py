@@ -47,7 +47,7 @@ class Faissvectorstore:
         with open(meta_path, "rb") as f:
             self.metadata = pickle.load(f)
 
-    def search(self, query_embedding, top_k= 5):
+    def search(self, query_embedding, top_k= 6):
         D, I = self.index.search(query_embedding, top_k)
         results = []
         for idx, dist in zip(I[0], D[0]):
@@ -55,7 +55,7 @@ class Faissvectorstore:
             results.append({"index": idx, "distance": dist, "metadata": meta})
         return results
 
-    def query(self, query_text, top_k = 5):
+    def query(self, query_text, top_k = 6):
         print(f"Finding answer for: '{query_text}'")
         query_emb = self.model.encode([query_text]).astype('float32')
         return self.search(query_emb, top_k=top_k)

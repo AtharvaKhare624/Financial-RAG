@@ -22,9 +22,13 @@ class RAGSearch:
         self.llm = ChatGroq(model_name=llm_model)
         print(f"Groq LLM initialized: {llm_model}")
 
-    def search_and_summarize(self, query, top_k= 5):
+    def search_and_summarize(self, query, top_k= 6):
         results = self.vectorstore.query(query, top_k=top_k)
-        texts = [r["metadata"].get("text", "") for r in results if r["metadata"]]
+        
+        texts = [
+            f"[Document Source: {r['metadata'].get('source', 'Unknown')}]\n" + r["metadata"].get("text", "") 
+            for r in results if r["metadata"]
+        ]
         context = "\n\n".join(texts)
         if not context:
             return "No relevant documents found."
