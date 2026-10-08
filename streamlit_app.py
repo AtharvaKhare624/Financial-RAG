@@ -32,24 +32,28 @@ if not os.getenv("GROQ_API_KEY"):
 
 rag_engine = load_rag_engine()
 
-# Example prompt shortcuts
-st.caption("Try an example question:")
-col1, col2 = st.columns(2)
-example_query = None
-
-if col1.button("SBI vs HDFC ₹20,000 Fee"):
-    example_query = "Compare the late payment penalty charged by SBI versus HDFC for an outstanding balance of ₹20,000. Which card charges higher fees for this slab?"
-if col2.button("RBI Recurring E-Mandate Rules"):
-    example_query = "What are the RBI compliance requirements and mandate rules when using corporate credit cards for recurring vendor payments or SaaS billing?"
+# Display example questions for user inspiration (Collapsible to save space)
+with st.expander("💡 See example questions you can ask"):
+    st.markdown("""
+    - **Fee Comparison:** Compare the late payment penalty charged by SBI versus HDFC for an outstanding balance of ₹45,000.
+    - **Rent & Utilities:** I need to pay ₹1.5 lakh for office rent. Compare the exact processing fees if I use an SBI card versus an HDFC card.
+    - **RBI Mandates:** What are the RBI compliance requirements and e-mandate rules for recurring vendor payments?
+    - **Authentication (AFA):** What is the maximum amount I can pay for my business utilities without needing an OTP?
+    - **EMI Transfers:** How much extra will HDFC charge me if I transfer a ₹50,000 EMI balance?
+    - **Regulatory:** What are the escrow and nodal account rules for payment aggregators according to the RBI?
+    - **Over-limit Fees:** If a transaction pushes me over my credit limit, what is the penalty structure?
+    - **Definitions:** What is the exact definition of "net-worth" for payment system operators under the RBI framework?
+    """)
 
 # Search input box
-query = st.text_input("Enter your question:", value=example_query if example_query else "")
+query = st.text_input("Enter your question:")
 
 if st.button("Analyze Query", type="primary"):
     if query.strip():
         with st.spinner("Searching vector store and generating synthesis..."):
             try:
-                response = rag_engine.search_and_summarize(query, top_k=4)
+                # Note: Updated top_k to 6 to handle multi-document comparisons better
+                response = rag_engine.search_and_summarize(query, top_k=6)
                 st.markdown("### Response")
                 st.markdown(response)
             except Exception as e:

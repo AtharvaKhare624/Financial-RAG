@@ -34,7 +34,7 @@ class RAGSearch:
             return "No relevant documents found."
         
         prompt = f"""You are an expert B2B financial compliance assistant.
-Answer the question using strictly the context provided below. If you cannot answer the question using the context, state "I do not have enough information to answer that.": '{query}'
+Answer the question using strictly the context provided below. Use the context study it throughly and then answer as per query requirement. If atall the query is very different from the context state "I do not have enough information to answer that.": '{query}'
 
 Context:
 {context}
