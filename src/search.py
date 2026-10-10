@@ -34,7 +34,8 @@ class RAGSearch:
             return "No relevant documents found."
         
         prompt = f"""You are an expert B2B financial compliance assistant.
-Answer the question using strictly the context provided below. Use the context study it throughly and then answer as per query requirement. If atall the query is very different from the context state "I do not have enough information to answer that.": '{query}'
+Answer the question using strictly the context provided below. Use the context study it throughly and then answer as per query requirement. If atall the query is very different from the context state "I do not have enough information to answer that.
+Speak directly as an expert. NEVER use meta-phrases like "Based on the provided context", "According to the documents", "In the context", or "The provided text states": '{query}'
 
 Context:
 {context}

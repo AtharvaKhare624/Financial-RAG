@@ -51,11 +51,14 @@ class Faissvectorstore:
         D, I = self.index.search(query_embedding, top_k)
         results = []
         for idx, dist in zip(I[0], D[0]):
-            meta = self.metadata[idx] if idx < len(self.metadata) else None
+            if idx >= 0 and idx<len(self.metadata):
+                meta = self.metadata[idx]
             results.append({"index": idx, "distance": dist, "metadata": meta})
         return results
 
     def query(self, query_text, top_k = 6):
         print(f"Finding answer for: '{query_text}'")
-        query_emb = self.model.encode([query_text]).astype('float32')
+        if isinstance(query_text,str):
+            query_text = [query_text]
+        query_emb = self.model.encode(query_text).astype('float32')
         return self.search(query_emb, top_k=top_k)

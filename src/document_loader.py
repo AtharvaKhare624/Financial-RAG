@@ -22,7 +22,6 @@ def document_loader(data_dir):
     return documents
 
 
-
 """    path_pdf = Path(data_dir).resolve()
     pdf_files = list(path_pdf.glob("*/**.pdf"))
 

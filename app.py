@@ -8,11 +8,11 @@ load_dotenv()
 def main():    
 
     if not os.getenv("GROQ_API_KEY"):
-        print("GROQ_API_KEY is missing from your .env file!")
+        print("GROQ_API_KEY is missing from .env file")
         return
 
     rag_engine = RAGSearch(
-        persist_dir="notebook/vectorstore/db_faiss", 
+        persist_dir="faiss_store", 
         embedding_model="all-MiniLM-L6-v2",
         llm_model="openai/gpt-oss-120b"
     )

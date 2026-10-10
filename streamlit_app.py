@@ -36,9 +36,7 @@ rag_engine = load_rag_engine()
 with st.expander("💡 See example questions you can ask"):
     st.markdown("""
     - **Fee Comparison:** Compare the late payment penalty charged by SBI versus HDFC for an outstanding balance of ₹45,000.
-    - **Rent & Utilities:** I need to pay ₹1.5 lakh for office rent. Compare the exact processing fees if I use an SBI card versus an HDFC card.
     - **RBI Mandates:** What are the RBI compliance requirements and e-mandate rules for recurring vendor payments?
-    - **Authentication (AFA):** What is the maximum amount I can pay for my business utilities without needing an OTP?
     - **EMI Transfers:** How much extra will HDFC charge me if I transfer a ₹50,000 EMI balance?
     - **Regulatory:** What are the escrow and nodal account rules for payment aggregators according to the RBI?
     - **Over-limit Fees:** If a transaction pushes me over my credit limit, what is the penalty structure?
